@@ -1,0 +1,60 @@
+﻿@model LivrosModel
+@{
+    ViewData["title"] = "Cadastrar livro";
+}
+
+
+
+
+<div class="container bg-dark p-5 rounded-5">
+
+     <div class="mb-5 text-center">
+        <h1 class="text-light">Cadastro de livros</h1> 
+     </div>
+
+<form method="post" asp-controller="Livros" asp-action="Cadastrar">
+
+
+    <div class="mb-3">
+        <label for="Título do livro" class="form-label text-light">Título do livro:</label>
+        <input type="text" class="form-control" asp-for="Titulo" id="Título do livro" placeholder="Qual o título do livro?">
+        <span class="text-danger" asp-validation-for="Titulo"></span>
+    </div>
+
+    <div class="mb-3">
+        <label for="Autor" class="form-label text-light">Autor:</label>
+        <input type="text" class="form-control" asp-for="Autor" id="Autor" placeholder="Qual o nome do autor?">
+        <span class="text-danger" asp-validation-for="Autor"></span>
+    </div>
+
+        <div class="mb-3">
+            <label for="Descrição" class="form-label text-light">Descrição:</label>
+            <input type="text" class="form-control" asp-for="Descricao" id="Descrição" placeholder="Qual a descrição do livro?">
+            <span class="text-danger" asp-validation-for="Descricao"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="preco" class="form-label text-light">Preço:</label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">R$</span>
+                </div>
+                <input type="number" class="form-control" asp-for="Preco" id="preco" name="preco" step="0.01" min="0" placeholder="0.00" required>
+                <span class="text-danger" asp-validation-for="Preco"></span>
+            </div>
+       </div>
+
+        <div class="mb-3">
+            <label for="Estado de conservação" class="form-label text-light">Estado de conservação:</label>
+            <input type="text" class="form-control" asp-for="EstadoConservacao" id="Estado de conservação" placeholder="Qual o estado de conservação do livro?">
+            <span class="text-danger" asp-validation-for="EstadoConservacao"></span>
+        </div>
+   
+
+   <div class="d-flex gap-5 mt-5">
+    <button type="submit" class="btn btn-success w-50">Adicionar</button>
+    <a class="btn btn-primary w-50" asp-controller="Livros" asp-action="Index">Voltar</a>
+   </div>
+
+</form>
+</div>

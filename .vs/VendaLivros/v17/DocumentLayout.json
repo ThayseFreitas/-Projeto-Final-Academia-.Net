@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Thayse\\source\\repos\\VendaLivros\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26C01DF0-FCB2-4F6D-9F2C-90F93CACF679}|VendaLivros\\VendaLivros.csproj|c:\\users\\thayse\\source\\repos\\vendalivros\\vendalivros\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26C01DF0-FCB2-4F6D-9F2C-90F93CACF679}|VendaLivros\\VendaLivros.csproj|solutionrelative:vendalivros\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C01DF0-FCB2-4F6D-9F2C-90F93CACF679}|VendaLivros\\VendaLivros.csproj|c:\\users\\thayse\\source\\repos\\vendalivros\\vendalivros\\views\\shared\\_layoutdeslogada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26C01DF0-FCB2-4F6D-9F2C-90F93CACF679}|VendaLivros\\VendaLivros.csproj|solutionrelative:vendalivros\\views\\shared\\_layoutdeslogada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C01DF0-FCB2-4F6D-9F2C-90F93CACF679}|VendaLivros\\VendaLivros.csproj|c:\\users\\thayse\\source\\repos\\vendalivros\\vendalivros\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26C01DF0-FCB2-4F6D-9F2C-90F93CACF679}|VendaLivros\\VendaLivros.csproj|solutionrelative:vendalivros\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C01DF0-FCB2-4F6D-9F2C-90F93CACF679}|VendaLivros\\VendaLivros.csproj|c:\\users\\thayse\\source\\repos\\vendalivros\\vendalivros\\controllers\\livroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C01DF0-FCB2-4F6D-9F2C-90F93CACF679}|VendaLivros\\VendaLivros.csproj|solutionrelative:vendalivros\\controllers\\livroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thayse\\source\\repos\\VendaLivros\\VendaLivros\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "VendaLivros\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Thayse\\source\\repos\\VendaLivros\\VendaLivros\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "VendaLivros\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswCYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T14:05:18.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_LayoutDeslogada.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thayse\\source\\repos\\VendaLivros\\VendaLivros\\Views\\Shared\\_LayoutDeslogada.cshtml",
+              "RelativeDocumentMoniker": "VendaLivros\\Views\\Shared\\_LayoutDeslogada.cshtml",
+              "ToolTip": "C:\\Users\\Thayse\\source\\repos\\VendaLivros\\VendaLivros\\Views\\Shared\\_LayoutDeslogada.cshtml",
+              "RelativeToolTip": "VendaLivros\\Views\\Shared\\_LayoutDeslogada.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswB8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T14:03:11.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Thayse\\source\\repos\\VendaLivros\\VendaLivros\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "VendaLivros\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Thayse\\source\\repos\\VendaLivros\\VendaLivros\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "VendaLivros\\Views\\Login\\Login.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T14:00:27.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LivrosController.cs",
+              "DocumentMoniker": "C:\\Users\\Thayse\\source\\repos\\VendaLivros\\VendaLivros\\Controllers\\LivrosController.cs",
+              "RelativeDocumentMoniker": "VendaLivros\\Controllers\\LivrosController.cs",
+              "ToolTip": "C:\\Users\\Thayse\\source\\repos\\VendaLivros\\VendaLivros\\Controllers\\LivrosController.cs",
+              "RelativeToolTip": "VendaLivros\\Controllers\\LivrosController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T21:08:23.654Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

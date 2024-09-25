@@ -1,0 +1,25 @@
+﻿@using VendaLivros.Dto
+@model UsuarioLoginDto
+
+
+@if (TempData["MensagemSucesso"] != null) {
+    <div class="alert alert-success" role="alert">
+        @TempData["MensagemSucesso"]
+    </div>
+}
+
+@if (TempData["MensagemErro"] != null) {
+    <div class="alert alert-danger" role="alert">
+        @TempData["MensagemErro"]
+    </div>
+}
+
+<div class="text-center">
+    <h1 class="display-4">ReutiLivros</h1>
+
+    <p>Conectando leitores a livros que merecem uma segunda chance. Explore, descubra e viva novas aventuras a cada página.</p>
+
+    <div>
+        <img src="/img/book.jpg" alt="Imagem de um livro" class="img-fluid" />
+    </div>
+</div>
