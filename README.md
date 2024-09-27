@@ -1,4 +1,5 @@
- ✍🏻 **Projeto-Final-Academia-.Net**
+ ✍🏻 **Projeto-Final-Academia.Net**
+ 
  ReutiLivros - Plataforma de Compra e Venda de Livros Usados
  
 
@@ -44,4 +45,43 @@
 
 • Execute o projeto através do Visual Studio ou linha de comando.
 
+
+
+Configurar o Banco de Dados
+Criar o Banco de Dados
+
+Execute o script ScriptTableDataBase.sqll no SQL Server Management Studio (SSMS) para criar o banco e tabelas.
+
+**Popular o Banco de Dados**
+
+Execute o script ScriptTableLivros.sql  e ScriptTableUsuarios.sql no SSMS para adicionar dados iniciais.
+
+
+ **Rodar a API**
+
+• Abra o projeto da API em uma IDE.
+
+• Alterar a String de Conexão
+
+• No arquivo appsettings.json, ajuste a string de conexão na seção ConnectionStrings:
+"ConnectionStrings": {
+    "conexao":  "server=localhost\\SQLEXPRESS01; Database=VendaLivrosBase; Integrated Security=True; TrustServerCertificate=True;"
+}
+
+**Instalar Dependências**
+
+• No Console do Gerenciador de Pacotes, execute:
+dotnet restore
+
+**Iniciar a API**
+
+• Pressione F5 ou clique em "Run" para iniciar a API.
+
+
+**Melhorias Futuras**
+
+• Integração da API: Consumir dados de livros disponíveis para venda diretamente no ReutiLivros.
+• Login Separado: Criar páginas de login distintas para vendedores e compradores, com funções exclusivas para cada perfil.
+• Tela de Livros Disponíveis: Exibir livros à venda com imagens, títulos, autores e preços em uma interface atraente.
+• Carrinho de Compras: Implementar um carrinho para facilitar a adição e finalização de compras de múltiplos livros.
 
